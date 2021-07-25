@@ -10,7 +10,6 @@ package com.project.helloworld.homework4
  *
  * Extra Credit: Instead of only printing "fizz", "buzz", and "fizzbuzz", add a fourth print statement: "prime".
  * You should print this whenever you encounter a number that is prime (divisible only by itself and one).
- *
  */
 
 fun main(){
@@ -26,6 +25,6 @@ fun main(){
     }
 }
 
-fun Int.divisibleBy(num: Int): Boolean = this.rem(num) == 0
+fun Int.divisibleBy(num: Int) = this.rem(num) == 0
 
 fun isPrime(num: Int) = num >= 2 && (2..(num.div(2))).none { num.rem(it) == 0 }

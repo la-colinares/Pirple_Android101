@@ -26,18 +26,10 @@ fun main(){
     println("Year Released: $year")
 }
 
-fun song(): String{
-    return "I Love You"
-}
+fun song(): String = "I Love You"
 
-fun genre(): String {
-    return "Pop"
-}
+fun genre(): String = "Pop"
 
-fun artist(): String {
-    return "Avril Lavigne"
-}
+fun artist(): String = "Avril Lavigne"
 
-fun year(): Int {
-    return 2011
-}
+fun year(): Int = 2011
